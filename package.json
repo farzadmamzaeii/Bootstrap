@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@icon/themify-icons": "^1.0.1-alpha.3",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.8",
+    "live-server": "^1.2.2",
+    "themify-icons": "^1.0.0"
+  },
+  "description": ""
+}

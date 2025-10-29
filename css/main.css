@@ -1,0 +1,429 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: farsi;
+}
+@font-face {
+  font-family: farsi;
+  src: url(../fonts/IRANSansWeb\(FaNum\)_Medium.woff2);
+}
+/*start code header*/
+header {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    rgba(25, 117, 255, 0.4),
+    rgba(25, 117, 255, 0.2),
+    rgba(25, 117, 255, 0)
+  );
+}
+header div.menu a {
+  color: black;
+  font-weight: 100;
+}
+header div.menu a:hover {
+  color: rgb(44, 139, 255);
+}
+header div.sectionA div button:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.3s ease;
+}
+header div.sectionA div.icon a:hover {
+  box-shadow: 0 0 10px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.3s ease;
+  opacity: 100%;
+}
+header div.sectionA div.photo img {
+  animation-duration: 13s;
+}
+@media (max-width: 992px) {
+  header div.sectionA div button {
+    width: max-content;
+  }
+}
+/*end code header*/
+/*start code sectionB*/
+.sectionB,
+.sectionC,
+.sectionD,
+.sectionE,
+.sectionF,
+.sectionH,
+.sectionK,
+.sectionL,
+.sectionM,
+.sectionN {
+  background-color: #f8f8f8;
+}
+.sectionB div.photo figure {
+  transition: all 0.3s linear;
+}
+.sectionB div.photo:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+}
+.sectionB div.photo figure:hover {
+  transform: scale(1.1);
+}
+.sectionB div button:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.3s ease;
+}
+.sectionB img.svg {
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  z-index: 0;
+  width: 310px;
+}
+@media (max-width: 992px) {
+  div.sectionB div button {
+    width: max-content;
+    padding: 8px;
+  }
+  .sectionB img.svg {
+    display: none;
+  }
+}
+/*end code sectionB*/
+/*start code sectionC*/
+.sectionC div.itemkoli {
+  row-gap: 96px;
+}
+.sectionC div.itemkoli div.khat {
+  width: 5px;
+  height: 96%;
+  z-index: 100;
+  top: 3%;
+  right: 49.65%;
+}
+
+.sectionC div.itemkoli div.circel {
+  top: 13%;
+  right: 45.5%;
+  z-index: 10;
+}
+.sectionC div.itemkoli div.circel span.A,
+.sectionC div.itemkoli div.circel2 span.A,
+.sectionC div.itemkoli div.circel3 span.A,
+.sectionC div.itemkoli div.circel4 span.A {
+  outline-offset: 6px;
+  border-radius: 50%;
+  outline: rgb(13 110 253 / 0.6) solid 2px;
+  box-shadow: 0 0 20px 5px rgb(13 110 253 / 0.6);
+}
+.sectionC div.itemkoli div.circel span.A,
+.sectionC div.itemkoli div.circel2 span.A,
+.sectionC div.itemkoli div.circel3 span.A,
+.sectionC div.itemkoli div.circel4 span.A,
+span.B,
+span.b {
+  width: 15px;
+  height: 15px;
+}
+.sectionC div.itemkoli div.circel2 {
+  top: 29%;
+  right: 49.2%;
+  z-index: 10;
+}
+.sectionC div.itemkoli div.circel3 {
+  top: 55%;
+  right: 45.5%;
+  z-index: 10;
+}
+.sectionC div.itemkoli div.circel4 {
+  top: 82%;
+  right: 49.2%;
+  z-index: 10;
+}
+
+.sectionC div.itemkoli div.card {
+  transition: all 0.3s linear;
+}
+.sectionC div.itemkoli div.card img {
+  margin-top: -50px;
+}
+.sectionC div.itemkoli div.card img:hover {
+  transform: scale(1.03);
+}
+.sectionC div.itemkoli div.card:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+}
+@media (max-width: 767px) {
+  .sectionC div.itemkoli div.khat {
+    right: -3%;
+  }
+  .sectionC div.itemkoli div.circel {
+    right: -4.5%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel span.B,
+  .sectionC div.itemkoli div.circel2 span.B,
+  .sectionC div.itemkoli div.circel3 span.B,
+  .sectionC div.itemkoli div.circel4 span.B {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel2 {
+    top: 31%;
+    right: -11%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel3 {
+    top: 57%;
+    right: -4.5%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel4 {
+    top: 85%;
+    right: -11.3%;
+    z-index: 10;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .sectionC div.itemkoli div.khat {
+    right: -35%;
+  }
+  .sectionC div.itemkoli div.circel {
+    right: -30%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel span.A {
+    transform: translateX(-110px);
+  }
+  .sectionC div.itemkoli div.circel span.B {
+    transform: translateX(64px);
+  }
+  .sectionC div.itemkoli div.circel2 {
+    right: -30%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel2 span.A {
+    transform: translateX(-71px);
+  }
+  .sectionC div.itemkoli div.circel2 span.B {
+    transform: translateX(25px);
+  }
+  .sectionC div.itemkoli div.circel3 {
+    right: -30%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel3 span.A {
+    transform: translateX(-110px);
+  }
+  .sectionC div.itemkoli div.circel3 span.B {
+    transform: translateX(64px);
+  }
+  .sectionC div.itemkoli div.circel4 {
+    top: 83%;
+    right: -30%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel4 span.A {
+    transform: translateX(-71px);
+  }
+  .sectionC div.itemkoli div.circel4 span.B {
+    transform: translateX(25px);
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+  .sectionC div.itemkoli div.khat {
+    transform: translateX(380px);
+    z-index: 0;
+  }
+  .sectionC div.itemkoli div.circel {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel span.A {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel span.B {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel2 {
+    right: 0%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel2 span.A {
+    transform: translateX(-230px);
+  }
+  .sectionC div.itemkoli div.circel3 {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel3 span.A {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel3 span.B {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel4 {
+    top: 82%;
+    right: 0%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel4 span.A {
+    transform: translateX(-230px);
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sectionC div.itemkoli div.khat {
+    transform: translateX(453px);
+    z-index: 0;
+  }
+  .sectionC div.itemkoli div.circel {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel span.A {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel span.B {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel2 {
+    right: 0%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel2 span.A {
+    transform: translateX(-380px);
+  }
+  .sectionC div.itemkoli div.circel3 {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel3 span.A {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel3 span.B {
+    display: none;
+  }
+  .sectionC div.itemkoli div.circel4 {
+    top: 82%;
+    right: 0%;
+    z-index: 10;
+  }
+  .sectionC div.itemkoli div.circel4 span.A {
+    transform: translateX(-380px);
+  }
+}
+/*end code sectionC*/
+/*star code sectionD*/
+.sectionD img {
+  width: 8%;
+  top: 20%;
+  left: 2%;
+}
+/*end code sectionD*/
+/*star code sectionE*/
+.sectionE div.container div.box div.item:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.3s ease;
+}
+.sectionE div.container div.box div.item img {
+  width: 85px;
+  height: 85px;
+}
+/*end code sectionE*/
+/*star code sectionF*/
+.sectionF div.container div.box ul:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.5s ease;
+}
+.sectionF div.container div.box figure img {
+  transition: all 0.3s linear;
+  filter: grayscale(100%);
+}
+
+.sectionF div.container div.box ul li div:hover img {
+  transform: scale(1.08);
+  filter: grayscale(0%);
+}
+/*end code sectionF*/
+/*star code sectionH*/
+.sectionH div.container div.box figure {
+  margin-top: -60px;
+}
+.sectionH div.container div.box img {
+  width: 64px;
+  height: 64px;
+  transition: all 0.3s linear;
+}
+.sectionH div.container div.item {
+  transition: all 0.3s linear;
+}
+.sectionH div.container div.item:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+  transition: box-shadow 0.5s ease;
+}
+.sectionH div.container div.item:hover img {
+  transform: scale(1.08);
+}
+/*end code sectionH*/
+/*star code sectionK*/
+.sectionK div.container div.item figure {
+  margin-top: -60px;
+}
+.sectionK div.container div.item figure img {
+  filter: grayscale(100%);
+  transition: all 0.5s linear;
+}
+.sectionK div.container div.item:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
+.sectionK div.container div.box div.item {
+  transition: box-shadow 0.5s ease;
+}
+.sectionK div.container div.item:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+}
+.sectionK div.container div.item ul li a span {
+  transition: outline 0.1s linear;
+}
+.sectionK div.container div.item ul li a span:hover {
+  outline: 2px solid rgb(13, 110, 253, 1);
+  outline-offset: 10px;
+  border-radius: 50%;
+}
+/*end code sectionK*/
+/*star code sectionL*/
+.sectionL div.container div.box figure {
+  margin-top: -60px;
+  width: 96px;
+  height: 96px;
+  outline: 4px solid skyblue;
+}
+.sectionL div.container div.box div.item {
+  transition: box-shadow 0.5s ease;
+}
+.sectionL div.container div.item:hover {
+  box-shadow: 0 0 20px rgb(13, 110, 253, 0.7);
+}
+.sectionL div.container div.item:hover img {
+  transform: scale(1.08);
+}
+.sectionL div.container div.item figure img {
+  transition: all 0.5s linear;
+}
+/*end code sectionL*/
+/*star code sectionM*/
+.sectionM div.container div.box div.card {
+  transition: all 0.1s linear;
+}
+.sectionM div.container div.box div.card:hover {
+  outline: 3px solid rgb(13, 110, 253, 0.7);
+}
+.sectionM div.container div.card:hover img {
+  transform: scale(1.08);
+}
+.sectionM div.container div.card img {
+  transition: all 0.5s linear;
+}
+@media (min-width: 992px) {
+  .sectionM div.container div.card {
+    width: 294px;
+  }
+}
+/*end code sectionM*/
+/*star code sectionN*/
+.sectionN div.container div.box div.item span {
+  font-size: 60px;
+}
+/*end code sectionN*/
